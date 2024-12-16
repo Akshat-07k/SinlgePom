@@ -54,7 +54,21 @@ export const InputFile = () => {
             marginRight:"auto",
             display: "block", 
         }}
-         type="submit" className="btn btn-success" onClick={handleSubmit}>Submit</button>
+         type="submit" className="btn btn-success" onClick={handleSubmit}>Submit</button><br />
+
+          <hr />
+         <h1 style={{textAlign:"center"}}>OR </h1>
+          <hr /><br />
+
+        <button
+        style={{
+            width:"20%",
+            marginLeft:"auto",
+            marginRight:"auto",
+            display: "block", 
+        }}
+         type="submit" className="btn btn-warning" onClick={()=>{navigate("/compare")}}>COMPARE</button><br />
+
     </div>
     </>
   )
